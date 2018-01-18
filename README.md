@@ -28,6 +28,9 @@ https://github.com/csjcai/SICE/blob/master/ssim_loss_layer.cpp
 
 https://github.com/csjcai/SICE/blob/master/ssim_loss_layer.cu
 
+#### caffe.proto (Parameters for SSIM)
+https://github.com/csjcai/SICE/blob/master/caffe.proto
+
 ##### Usage
 ```
 layer {
