@@ -15,13 +15,17 @@ Please refer to:
 ## Caffe 
 ### New Layers With CPU and GPU Implementations
 #### L1 Loss Layer
-https://github.com/csjcai/SICE/blob/master/l1_loss_layer.hpp
-https://github.com/csjcai/SICE/blob/master/l1_loss_layer.cpp
-https://github.com/csjcai/SICE/blob/master/l1_loss_layer.cu
+https://github.com/csjcai/SICE/blob/master/L1_loss_layer.hpp
+
+https://github.com/csjcai/SICE/blob/master/L1_loss_layer.cpp
+
+https://github.com/csjcai/SICE/blob/master/L1_loss_layer.cu
 
 #### SSIM Loss Layer
 https://github.com/csjcai/SICE/blob/master/ssim_loss_layer.hpp
+
 https://github.com/csjcai/SICE/blob/master/ssim_loss_layer.cpp
+
 https://github.com/csjcai/SICE/blob/master/ssim_loss_layer.cu
 
 ##### Usage
