@@ -13,6 +13,6 @@ Please refer to:
 * Deep Learning Toolboxs (Caffe, Tensorflow, Pytorch, MatConvnet)
 
 ## Caffe 
-We provide the L1-Loss Layer and SSIM-Loss Layer (please also edit the caffe.proto file)
+Caffe toolbox with L1-Loss Layer and SSIM-Loss Layer
 
 
