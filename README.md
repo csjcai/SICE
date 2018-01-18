@@ -5,8 +5,11 @@ Due to the poor lighting condition and limited dynamic range of digital imaging 
 
 ## Dataset
 Please refer to: 
-1) Google Drive:
-2) BaiduYun:
+* Google Drive:
+
+or
+
+* BaiduYun:
 
 ## Requirements and Dependencies
 * Cuda-8.0 & cuDNN -V5.1
