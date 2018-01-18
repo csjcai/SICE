@@ -34,17 +34,16 @@ https://github.com/csjcai/SICE/blob/master/caffe.proto
 ##### Usage
 ```
 layer {
-  name: "mylosslayer"
+  name: "SSIMLossLayer"
   type: "SSIMLoss"
-  bottom: "result"
-  bottom: "ground_truth"
-  top: "loss_vale"
-  loss_weight: 1             # <- set whatever you fancy
+  bottom: "output"
+  bottom: "label"
+  top: "SSIMLoss"
   ssim_loss_param{
-    kernel_size: 8           # <- The kernel size is linked to the gaussian variance (circular). The kernel encloses +/1 3*sigma 
-    stride: 8                # <- Equal strides in both dimensions
-    c1: 0.0001               # <- Let these be
-    c2: 0.001                # <- Let these be
+    kernel_size: 8       
+    stride: 8                
+    c1: 0.0001              
+    c2: 0.001                
   }
 }
 ```
