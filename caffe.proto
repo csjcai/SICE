@@ -406,6 +406,7 @@ message LayerParameter {
   optional TileParameter tile_param = 138;
   optional WindowDataParameter window_data_param = 129;
   optional SSIMLossParameter ssim_loss_param = 148;
+  optional RegularizationParameter regularization_param = 149;
 }
 
 // Message that stores parameters used to apply transformation
@@ -844,6 +845,40 @@ message InputParameter {
   repeated BlobShape shape = 1;
 }
 
+message RegularizationParameter {
+  enum Norm {
+    L1 = 1;
+    L2 = 2;
+  }
+  enum ReMethod {
+    Zero = 1;
+    One = 2;
+    Two = 3;
+    Three = 4;
+  }
+  // Specify the Norm to use L1 or L2
+  optional Norm norm = 1 [default = L1];
+  optional ReMethod method = 2 [default = Zero];
+  optional float regular = 3 [default = 0.5];
+  optional float level1 = 4 [default = 0.0];
+  optional float level2 = 5 [default = 0.0];
+  optional float level3 = 6 [default = 0.0];
+  optional float level4 = 7 [default = 0.0];
+  optional float level5 = 8 [default = 0.0];
+  optional float level6 = 9 [default = 0.0];
+  optional float level7 = 10 [default = 0.0];
+  optional float value1 = 11 [default = 0.0];
+  optional float value2 = 12 [default = 0.0];
+  optional float value3 = 13 [default = 0.0];
+  optional float value4 = 14 [default = 0.0];
+  optional float value5 = 15 [default = 0.0];
+  optional float value6 = 16 [default = 0.0];
+  optional float value7 = 17 [default = 0.0];
+  optional float value8 = 18 [default = 0.0];
+}
+
+
+
 // Message that stores parameters used by LogLayer
 message LogParameter {
   // LogLayer computes outputs y = log_base(shift + scale * x), for base > 0.
@@ -1272,6 +1307,7 @@ message V1LayerParameter {
     THRESHOLD = 31;
     L1_LOSS = 99;
     SSIM_LOSS = 100;
+    REGULARIZATION = 101;
   }
   optional LayerType type = 5;
   repeated BlobProto blobs = 6;
