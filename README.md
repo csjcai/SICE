@@ -24,6 +24,13 @@ https://github.com/csjcai/SICE/blob/master/L1_loss_layer.cpp
 
 https://github.com/csjcai/SICE/blob/master/L1_loss_layer.cu
 
+#### Regularization Layer
+https://github.com/csjcai/SICE/blob/master/regularization_layer.hpp
+
+https://github.com/csjcai/SICE/blob/master/regularization_layer.cpp
+
+https://github.com/csjcai/SICE/blob/master/regularization_layer.cu
+
 #### SSIM Loss Layer
 https://github.com/csjcai/SICE/blob/master/ssim_loss_layer.hpp
 
