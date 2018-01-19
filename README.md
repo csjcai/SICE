@@ -12,8 +12,8 @@ or
 * BaiduYun:
 
 ## Requirements and Dependencies
-* Cuda-8.0 & cuDNN -V5.1
-* Deep Learning Toolboxs (Caffe, Tensorflow, Pytorch, MatConvnet)
+- [Cuda](https://developer.nvidia.com/cuda-toolkit-archive)-8.0 & [cuDNN](https://developer.nvidia.com/cudnn) v-5.1
+- Deep Learning Toolboxs ([Caffe](https://github.com/BVLC/caffe), [Tensorflow](https://github.com/tensorflow/tensorflow), [Pytorch](https://github.com/pytorch/pytorch), [MatConvNet](http://www.vlfeat.org/matconvnet/))
 
 ## Caffe 
 ### New Layers With CPU and GPU Implementations
