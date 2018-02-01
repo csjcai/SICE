@@ -38,7 +38,7 @@ https://github.com/csjcai/SICE/blob/master/ssim_loss_layer.cpp
 
 https://github.com/csjcai/SICE/blob/master/ssim_loss_layer.cu
 
-#### caffe.proto (Parameters for SSIM)
+#### caffe.proto (Parameters for SSIM and Regularization Layer)
 https://github.com/csjcai/SICE/blob/master/caffe.proto
 
 ##### Usage
