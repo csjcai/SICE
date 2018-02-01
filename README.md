@@ -15,8 +15,6 @@ or
 - [Cuda](https://developer.nvidia.com/cuda-toolkit-archive)-8.0 & [cuDNN](https://developer.nvidia.com/cudnn) v-5.1
 - Deep Learning Toolboxs ([Caffe](https://github.com/BVLC/caffe), [Tensorflow](https://github.com/tensorflow/tensorflow), [Pytorch](https://github.com/pytorch/pytorch), [MatConvNet](http://www.vlfeat.org/matconvnet/))
 
-- You can also try: [Fast Image Processing with Fully-Convolutional Networks (ICCV 2017)](http://www.cqf.io/papers/Fast_Image_Processing_ICCV2017.pdf)          (https://github.com/CQFIO/FastImageProcessing)
-
 ## Caffe 
 ### New Layers With CPU and GPU Implementations
 #### L1 Loss Layer
@@ -59,6 +57,16 @@ layer {
   }
 }
 ```
+
+
+## Related Networks
+- [Fast Image Processing with Fully-Convolutional Networks (ICCV 2017)](http://www.cqf.io/papers/Fast_Image_Processing_ICCV2017.pdf)          (https://github.com/CQFIO/FastImageProcessing)
+
+- [Deep Bilateral Learning for Real-Time Image Enhancements] (Siggraph 2017)(https://groups.csail.mit.edu/graphics/hdrnet/data/hdrnet.pdf)
+     (https://github.com/mgharbi/hdrnet)
+
+
+
 ## Citation
 
 ```
