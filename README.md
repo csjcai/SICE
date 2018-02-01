@@ -5,7 +5,7 @@ Due to the poor lighting condition and limited dynamic range of digital imaging 
 
 ## Dataset
 Please refer to: 
-* Google Drive: [Part1: 360 Image Sequences](goo.gl/gTGfLk)
+* Google Drive: [Part1: 360 Image Sequences](https://goo.gl/gTGfLk)
 
 or
 
