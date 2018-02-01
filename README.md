@@ -9,7 +9,7 @@ Please refer to:
 
 or
 
-* BaiduYun: [Part1: 360 Image Sequences]()
+* BaiduYun: [Part1: 360 Image Sequences](https://pan.baidu.com/s/1kXotehL)
 
 ## Requirements and Dependencies
 - [Cuda](https://developer.nvidia.com/cuda-toolkit-archive)-8.0 & [cuDNN](https://developer.nvidia.com/cudnn) v-5.1
