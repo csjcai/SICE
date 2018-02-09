@@ -72,7 +72,7 @@ layer {
 ```
 @article{Cai2018deep,
 title={Learning a Deep Single Image Contrast Enhancer from Multi-Exposure Images}, 
-author={Cai, Jianrui, Gu, Shuhang and Zhang, Lei},
+author={Cai, Jianrui, and Gu, Shuhang and Zhang, Lei},
 journal={IEEE Transactions on Image Processing},
 volume={27}, 
 number={4}, 
