@@ -171,7 +171,7 @@ void SSIMLossLayer<Dtype>::Backward_cpu(const vector<Blob<Dtype>*>& top,
   const Dtype* sx2 = sx2_.cpu_data();
   const Dtype* sy2 = sy2_.cpu_data();
   const Dtype* sxy = sxy_.cpu_data();
-  const double* gaussian = gauss_kernel.cpu_data();
+  const double* gaussian = gauss_kernel_.cpu_data();
 
   caffe_set(bottom[0]->count(), Dtype(0), bottom_diff);
   const Dtype alpha = -top[0]->cpu_diff()[0] / bottom[0]->num();
