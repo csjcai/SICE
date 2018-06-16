@@ -6,6 +6,7 @@ Due to the poor lighting condition and limited dynamic range of digital imaging 
 ## Dataset
 Please refer to: 
 * Google Drive: [Part1: 360 Image Sequences](https://goo.gl/gTGfLk)
+                [Part2: 229 Image Sequences](https://goo.gl/ciV2C5)
 
 or
 
@@ -18,28 +19,9 @@ or
 ## Caffe 
 ### New Layers With CPU and GPU Implementations
 #### L1 Loss Layer
-https://github.com/csjcai/SICE/blob/master/L1_loss_layer.hpp
-
-https://github.com/csjcai/SICE/blob/master/L1_loss_layer.cpp
-
-https://github.com/csjcai/SICE/blob/master/L1_loss_layer.cu
-
 #### Regularization Layer
-https://github.com/csjcai/SICE/blob/master/regularization_layer.hpp
-
-https://github.com/csjcai/SICE/blob/master/regularization_layer.cpp
-
-https://github.com/csjcai/SICE/blob/master/regularization_layer.cu
-
 #### SSIM Loss Layer
-https://github.com/csjcai/SICE/blob/master/ssim_loss_layer.hpp
-
-https://github.com/csjcai/SICE/blob/master/ssim_loss_layer.cpp
-
-https://github.com/csjcai/SICE/blob/master/ssim_loss_layer.cu
-
 #### caffe.proto (Parameters for SSIM and Regularization Layer)
-https://github.com/csjcai/SICE/blob/master/caffe.proto
 
 ##### Usage
 ```
