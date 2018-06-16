@@ -5,12 +5,12 @@ Due to the poor lighting condition and limited dynamic range of digital imaging 
 
 ## Dataset
 Please refer to: 
-* Google Drive: [Part1: 360 Image Sequences](https://goo.gl/gTGfLk)
+* Google Drive: [Part1: 360 Image Sequences](https://goo.gl/gTGfLk), 
                 [Part2: 229 Image Sequences](https://goo.gl/ciV2C5)
 
 or
 
-* BaiduYun: [Part1: 360 Image Sequences](https://pan.baidu.com/s/1kXotehL)
+* BaiduYun: [Part1: 360 Image Sequences](https://pan.baidu.com/s/1kXotehL), [Part2: 229 Image Sequences Data](https://pan.baidu.com/s/1x1Dq9xef1dBTXXHcMjPAyA), [Part2: 229 Image Sequences Label](https://pan.baidu.com/s/1zZR5xU92q7UwcCJq-_9xmQ)
 
 ## Requirements and Dependencies
 - [Cuda](https://developer.nvidia.com/cuda-toolkit-archive)-8.0 & [cuDNN](https://developer.nvidia.com/cudnn) v-5.1
