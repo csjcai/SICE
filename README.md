@@ -6,9 +6,7 @@ Due to the poor lighting condition and limited dynamic range of digital imaging 
 ## Code for training and testing
 Trained Caffe model for the Low-light image: *.caffemodel
 
-Network structure: *.prototxt 
-
-(to view the network structure, use [this link](http://ethereon.github.io/netscope/#/editor)),
+Network structure: *.prototxt (to view the network structure, use [this link](http://ethereon.github.io/netscope/#/editor)),
 
 Install and compile the caffe first, the matlab interface is used. 
 
