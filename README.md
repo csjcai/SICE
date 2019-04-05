@@ -20,8 +20,9 @@ or
 - Deep Learning Toolboxs ([Caffe](https://github.com/BVLC/caffe), [Tensorflow](https://github.com/tensorflow/tensorflow), [Pytorch](https://github.com/pytorch/pytorch), [MatConvNet](http://www.vlfeat.org/matconvnet/))
 
 ## Caffe 
-### New Layers With CPU and GPU Implementations
-### caffe.proto (Parameters for SSIM and Regularization Layer)
+
+#### New Layers With CPU and GPU Implementations
+#### caffe.proto (Parameters for SSIM and Regularization Layer)
 
 ##### Usage
 ```
