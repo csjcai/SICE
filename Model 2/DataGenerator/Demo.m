@@ -52,20 +52,16 @@ for j = 1 :length(filepaths)
             end
         end
         
-        if (~mod(j, 80))
-            count = 1;
-            num = num + 1;
-            
-            h5create(['SICE_',  num2str(num), '.h5'],'/dataL', size(dataL), 'Datatype', 'single')
-            h5create(['SICE_',  num2str(num), '.h5'],'/dataD', size(dataD), 'Datatype', 'single')
-            h5create(['SICE_',  num2str(num), '.h5'],'/label', size(label), 'Datatype', 'single')
-            h5create(['SICE_',  num2str(num), '.h5'],'/data', size(data), 'Datatype', 'single')
+        h5create('SICE.h5', '/dataL', size(dataL), 'Datatype', 'single')
+        h5create('SICE.h5', '/dataD', size(dataD), 'Datatype', 'single')
+        h5create('SICE.h5', '/label', size(label), 'Datatype', 'single')
+        h5create('SICE.h5', '/data', size(data), 'Datatype', 'single')
 
-            h5write(['SICE_',  num2str(num), '.h5'],'/dataL', single(dataL))
-            h5write(['SICE_',  num2str(num), '.h5'],'/dataD', single(dataD))
-            h5write(['SICE_',  num2str(num), '.h5'],'/label', single(label))
-            h5write(['SICE_',  num2str(num), '.h5'],'/data', single(data))
-        end
+        h5write('SICE.h5', '/dataL', single(dataL))
+        h5write('SICE.h5', '/dataD', single(dataD))
+        h5write('SICE.h5', '/label', single(label))
+        h5write('SICE.h5', '/data', single(data))
+
     end
     
 end
