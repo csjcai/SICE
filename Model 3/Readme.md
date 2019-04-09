@@ -16,4 +16,4 @@ message PixelConvParameter {
   
 }
 
-![image](https://github.com/csjcai/SICE/blob/master/Model%203/model2.bmp)
+![image](https://github.com/csjcai/SICE/blob/master/Model%203/model3.bmp)
