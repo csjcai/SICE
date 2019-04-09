@@ -15,3 +15,5 @@ message PixelConvParameter {
   optional bool is_bpd = 3 [default = true];
   
 }
+
+![image](https://github.com/csjcai/SICE/blob/master/Model%203/model2.bmp)
