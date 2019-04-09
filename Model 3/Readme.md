@@ -13,4 +13,5 @@ message PixelConvParameter {
   optional bool is_bpk = 2 [default = true];
   
   optional bool is_bpd = 3 [default = true];
+  
 }
