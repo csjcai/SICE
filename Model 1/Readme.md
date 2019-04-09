@@ -5,4 +5,4 @@ Trained Caffe model for the Low-light image: *.caffemodel
 Network structure: *.prototxt (to view the network structure, use [this link](http://ethereon.github.io/netscope/#/editor))
 
 
-![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
+![image](https://github.com/csjcai/SICE/blob/master/Model%201/mode1.bmp)
