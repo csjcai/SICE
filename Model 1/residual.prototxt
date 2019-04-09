@@ -1,8 +1,8 @@
 input:"data"
 input_dim:1
 input_dim:3
-input_dim:1200
-input_dim:1200
+input_dim:1500
+input_dim:1500
 
 layer {
   name: "conv_gA1"
@@ -368,12 +368,12 @@ layer {
 }
 
 layer {
-  name: "RIR"
+  name: "conv_g17"
   type: "Convolution"
   bottom: "conv_g16"
-  top: "RIR"
+  top: "conv_g17"
   convolution_param {
-    num_output: 147
+    num_output: 3
     kernel_size: 3
     stride: 1
     pad: 1     
@@ -384,9 +384,9 @@ layer {
 }
 
 layer {
-  name: "Pixel"
-  type: "PixelConv"
-  bottom: "RIR"
+  name: "sum"
+  type: "Eltwise"
   bottom: "data"
-  top: "Pixel"
+  bottom: "conv_g17"
+  top: "sum"
 }
