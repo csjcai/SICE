@@ -4,7 +4,7 @@ close all;
 warning off;
 
 addpath(genpath('./.'));
-addpath(genpath('/home/jerry/caffe/')) ;
+addpath(genpath('/home/../caffe/')) ;
 
 caffe.set_mode_gpu();
 caffe.set_device(0);
