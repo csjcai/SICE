@@ -1,3 +1,5 @@
+## Run Demo_Test.m (Compile the Caffe and the MatCaffe first)
+
 ## Model 2 refers to the network used in the orginal paper
 
 Trained Caffe model for the Low-light image: *.caffemodel
