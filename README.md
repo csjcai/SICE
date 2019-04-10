@@ -13,14 +13,17 @@ Install and compile Caffe (the matlab interface is used).
 
 #### Model 1 (End-to-end residual learning)
 Run the [Demo.Test.m](https://github.com/csjcai/SICE/blob/master/Model%201/Demo_Test.m) for the result
+
 ![image](https://github.com/csjcai/SICE/blob/master/Model%201/model1.bmp)
 
 #### Model 2 (Twostage Network)
 Run the [Demo.Test.m](https://github.com/csjcai/SICE/blob/master/Model%202/Demo_Test.m) for the result
+
 ![image](https://github.com/csjcai/SICE/blob/master/Model%202/model2.bmp)
 
 #### Model 3 (Twostage perpixel convolution)
 Run the [Demo.Test.m](https://github.com/csjcai/SICE/blob/master/Model%203/Demo_Test.m) for the result
+
 ![image](https://github.com/csjcai/SICE/blob/master/Model%203/model3.bmp)
 
 
