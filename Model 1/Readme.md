@@ -1,3 +1,5 @@
+## Run Demo_test.m (Compile the Caffe and the MatCaffe first)
+
 ## Model 1 refers to the residual network
 
 Trained Caffe model for the Low-light image: *.caffemodel
