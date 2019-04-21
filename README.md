@@ -38,7 +38,7 @@ or
 
 ## Requirements and Dependencies
 - [Cuda](https://developer.nvidia.com/cuda-toolkit-archive)-8.0 & [cuDNN](https://developer.nvidia.com/cudnn) v-5.1
-- Deep Learning Toolboxs ([Caffe](https://github.com/BVLC/caffe), [Tensorflow](https://github.com/tensorflow/tensorflow), [Pytorch](https://github.com/pytorch/pytorch), [MatConvNet](http://www.vlfeat.org/matconvnet/))
+- Deep Learning Toolboxs ([Caffe](https://github.com/BVLC/caffe))
 
 ## Caffe 
 #### [New Layers](https://github.com/csjcai/SICE/tree/master/Layer) With CPU and GPU Implementations
