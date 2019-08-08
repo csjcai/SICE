@@ -60,14 +60,6 @@ layer {
 }
 ```
 
-
-## Relevant Networks
-- [Fast Image Processing with Fully-Convolutional Networks (ICCV 2017)](http://www.cqf.io/papers/Fast_Image_Processing_ICCV2017.pdf) 
-
-- [Deep Bilateral Learning for Real-Time Image Enhancements (Siggraph 2017)](https://groups.csail.mit.edu/graphics/hdrnet/data/hdrnet.pdf)
-
-
-
 ## Citation
 
 ```
