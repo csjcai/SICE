@@ -5,11 +5,9 @@ Due to the poor lighting condition and limited dynamic range of digital imaging 
 
 ## Code for training and testing
 
-Trained Caffe model for the under-exposed image: *.caffemodel
-
-Network structure: *.prototxt (to view the network structure, use [this link](http://ethereon.github.io/netscope/#/editor)),
-
-Install and compile Caffe (the matlab interface is used). 
+> Trained Caffe model for the under-exposed image: *.caffemodel <br>
+> Network structure: *.prototxt (to view the network structure, use [this link](http://ethereon.github.io/netscope/#/editor)) <br>
+> Install and compile Caffe (the matlab interface is used) <br>
 
 #### Model 1 (End-to-end residual learning)
 Run the [Demo_Test.m](https://github.com/csjcai/SICE/blob/master/Model%201/Demo_Test.m) for the result
